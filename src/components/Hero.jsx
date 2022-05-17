@@ -7,18 +7,16 @@ function Hero() {
         speed: -40,
     });
 
-
     return (
         <div id="wrapper ">
-
             <div id="hero" ref={parallax.ref} className="relative grid grid-cols-6 gap-4 place-content-evenly hero-bg flex relative z-10">
                 <Navbar />
-                <div className='col-start-2 col-span-4 text-center '>
-                    <h1 className='text-7xl text-white'>We provide personal service for your insurance needs</h1>
+                <div className='col-start-2 col-span-4 text-center'>
+                    <h1 className='text-5xl text-white'>We provide personal service for your insurance needs</h1>
 
                     <div className='mt-14'>
                         <button className="btn btn-lg btn-primary btn-wide mr-5">About Us</button>
-                        <button className="btn btn-lg btn-wide btn-outline text-white ">Contact</button>
+                        <button className="btn btn-lg btn-wide btn-outline text-white mt-5">Contact</button>
                     </div>
                 </div>
             </div>
