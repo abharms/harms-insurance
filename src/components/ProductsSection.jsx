@@ -3,7 +3,7 @@ import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 function ProductsSection() {
     return (
-        <div className='py-40 bg-gray-100'>
+        <div className='py-40 bg-gray-100 about-bg relative z-10'>
             <div className="grid grid-cols-12 place-content-evenly mb-10">
                 <AnimatedOnScroll animationInDelay="120" animationInDuration="1500" animationIn="fadeInDown" className='col-start-6 col-span-2 place-self-center text-6xl text-blue-600 font-semibold '>
            
