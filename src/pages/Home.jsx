@@ -9,10 +9,10 @@ function Home() {
   return (
     <>
         <Hero />
-        {/* <WhoWeAreSection />
+        <WhoWeAreSection />
         <ProductsSection />
         <PersonalServiceSection />
-        <Footer /> */}
+        <Footer />
     </>
   )
 }

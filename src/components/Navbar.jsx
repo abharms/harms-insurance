@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import logo from '../../src/assets/logo-white.png';
 
 function Navbar() {
@@ -12,11 +13,11 @@ function Navbar() {
 
     return (
         <>
-            <nav className="absolute top-10 navbar text-xl pl-5 pr-5 z-10">
+            <nav className="hidden md:flex absolute top-10 navbar text-xl pl-5 pr-5 z-10">
                 <div className="flex-1">
                     <img src={logo} height="50px" width="200px" />
                 </div>
-                <div className="hidden lg:visible flex-none">
+                <div className="">
                     <ul className="menu menu-horizontal p-0 text-white">
                         <li><a>Home</a></li>
                         <li onClick={() => navigate('/about-us')}><a>About Us</a></li>
@@ -25,21 +26,32 @@ function Navbar() {
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <button onClick={() => onMobileClick()} class="lg:hidden btn btn-square btn-ghost btn-lg text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-12 h-12 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                </button>
-
             </nav>
+
+            <nav className='md:hidden absolute navbar top-10'>
+                <div className="inline-block">
+                    <img src={logo} height="50px" width="200px" />
+                </div>
+                <div onClick={() => onMobileClick()} className={`${navToggled && 'is-active'}  hamburger inline-block right-10 absolute`} id="hamburger-1">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </nav>
+
             {navToggled && (
-                <ul class="menu bg-base-100 w-full text-left absolute top-28 right-0">
-                <li><a>Home</a></li>
-                <li><a>About Us</a></li>
-                <li><a>Products</a></li>
-                <li><a>Claims &amp; Payments</a></li>
-                <li><a>Contact</a></li>
-            </ul>
+                <AnimatedOnScroll animationInDuration="300" animationIn="fadeIn" animationOut="fadeOut">
+                    <ul class="menu bg-base-100 w-full text-left absolute top-28 right-0">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Products</a></li>
+                        <li><a>Claims &amp; Payments</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </AnimatedOnScroll>
+
             )}
-            
+
         </>
     )
 }
