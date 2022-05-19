@@ -19,7 +19,7 @@ function Navbar() {
                 </div>
                 <div className="">
                     <ul className="menu menu-horizontal p-0 text-white">
-                        <li><a>Home</a></li>
+                        <li onClick={() => navigate('/')}><a>Home</a></li>
                         <li onClick={() => navigate('/about-us')}><a>About Us</a></li>
                         <li><a>Products</a></li>
                         <li><a>Claims &amp; Payments</a></li>
@@ -42,8 +42,8 @@ function Navbar() {
             {navToggled && (
                 <AnimatedOnScroll animationInDuration="300" animationIn="fadeIn" animationOut="fadeOut">
                     <ul class="menu bg-base-100 w-full text-left absolute top-28 right-0">
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
+                        <li onClick={() => navigate('/')}><a>Home</a></li>
+                        <li onClick={() => navigate('/about-us')}><a>About Us</a></li>
                         <li><a>Products</a></li>
                         <li><a>Claims &amp; Payments</a></li>
                         <li><a>Contact</a></li>

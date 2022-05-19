@@ -12,7 +12,7 @@ function Hero() {
             <div id="hero" ref={parallax.ref} className="relative grid grid-cols-6 gap-4 place-content-evenly hero-bg flex relative z-10">
                 <Navbar />
                 <div className='col-start-2 col-span-4 text-center'>
-                    <h1 className='text-5xl text-white'>We provide personal service for your insurance needs</h1>
+                    <h1 className='mt-28 md:mt-0 text-5xl md:text-7xl text-white'>We provide personal service for your insurance needs</h1>
 
                     <div className='mt-14'>
                         <button className="btn btn-lg btn-primary btn-wide md:mr-5">About Us</button>

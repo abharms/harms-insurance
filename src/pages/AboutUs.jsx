@@ -1,8 +1,13 @@
-import React from 'react'
+import AboutHeader from "../components/AboutHeader"
+import MeetTheStaff from "../components/MeetTheStaff"
 
 function AboutUs() {
   return (
-    <div>AboutUs</div>
+    <>
+      <AboutHeader />
+      <MeetTheStaff />
+    </>
+
   )
 }
 
