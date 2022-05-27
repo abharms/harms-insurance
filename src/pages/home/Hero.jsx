@@ -1,5 +1,5 @@
 import { useParallax } from 'react-scroll-parallax';
-import Navbar from './Navbar';
+import Navbar from '../../shared/Navbar'
 
 function Hero() {
 

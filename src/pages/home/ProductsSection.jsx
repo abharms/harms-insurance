@@ -7,7 +7,7 @@ function ProductsSection() {
             <div className="mx-3.5 grid grid-cols-1 md:grid-cols-12 place-content-evenly mb-10">
                 <AnimatedOnScroll animationInDelay="120" animationInDuration="1500" animationIn="fadeInDown" className='md:col-start-6 md:col-span-2 place-self-center text-6xl text-blue-600 font-semibold '>
            
-                        products<span className='text-black'>.</span>
+                        <h2>products<span className='text-black'>.</span></h2>
                   
                 </AnimatedOnScroll>
                 <AnimatedOnScroll animationInDuration="1500" animationIn="fadeInDown" className='md:col-start-4 col-span-6 place-self-center text-center  mt-6 text-2xl'>

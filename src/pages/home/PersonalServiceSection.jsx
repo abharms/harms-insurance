@@ -1,6 +1,7 @@
-import personalService from '../assets/personal-service.jpg'
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { useParallax } from 'react-scroll-parallax';
+
+import personalService from '../../assets/personal-service.jpg'
 
 function PersonalServiceSection() {
     const parallax = useParallax({

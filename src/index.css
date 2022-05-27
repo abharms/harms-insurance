@@ -2,24 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  /* font-family: 'Montserrat', sans-serif; */
+h1,h2,h3 {
+  font-family: 'Noto Serif', serif;
 }
 
-/* p {
-  font-family: 'Open Sans', sans-serif;
-} */
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
 
 .hero-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../src/assets/group.jpg');
   background-size: cover;
   height: 101vh;
   background-position: center;
+}
 
+#description {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../src/assets/plains.jpg');
+  /* background-size: cover;
+  height: 60vh;
+  background-position: center; */
+  height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .about-bg {
-  background: url('../src/assets/whirlpool.png');
+  background: url('../src/assets/white-waves.png');
   background-repeat: repeat;
 }
 
@@ -28,12 +40,17 @@ body {
   background-size: cover;
   height: 50vh;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .personal-service-image {
   max-height: 700px;
   border: 2px solid black;
   padding: 30px;
+}
+
+.nav-active {
+  background-color: rgb(255,255,255, 0.2);
 }
 
 footer {

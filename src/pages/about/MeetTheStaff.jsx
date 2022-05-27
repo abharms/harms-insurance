@@ -1,8 +1,8 @@
 import React from 'react'
-import carlin from '../assets/carlin.jpg'
-import chavan from '../assets/chavan.jpg'
-import nanette from '../assets/nanette.jpg'
-import wesley from '../assets/wesley.jpg'
+import carlin from '../../assets/carlin.jpg'
+import chavan from '../../assets/chavan.jpg'
+import nanette from '../../assets/nanette.jpg'
+import wesley from '../../assets/wesley.jpg'
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { useParallax } from 'react-scroll-parallax';
 
@@ -32,7 +32,7 @@ function MeetTheStaff() {
                         <h2 className="card-title text-4xl">Carlin Day</h2>
                         <p className='text-2xl mt-2'>Carlin is the agency Principal and is a licensed producer working with property and casualty as well as life and health.</p>
                         <p className='text-2xl mt-4'>Contact Carlin today to begin working on your insurance needs.</p>
-                        <button className="btn btn-outline mt-10"><i class="fa-solid fa-envelope mr-4"></i>Email</button>
+                        <button className="btn btn-outline mt-10"><i className="fa-solid fa-envelope mr-4"></i>Email</button>
                     </AnimatedOnScroll>
 
                     <AnimatedOnScroll animationIn="fadeInUp" animationInDuration="1900" className='mx-3.5 gap-10 col-start-8 relative'>
@@ -44,10 +44,9 @@ function MeetTheStaff() {
                         </div>
                         
                     </AnimatedOnScroll>
-
                 </section>
-                <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5 bg-gray-50">
 
+                <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5 about-bg">
                     <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className='mx-3.5 gap-10 col-start-3'>
                         <div className="card w-96 bg-base-100 shadow-xl z-10">
                             <figure><img src={chavan} alt="Chavan Sampley" /></figure>
@@ -62,7 +61,7 @@ function MeetTheStaff() {
                         <p className='text-2xl mt-2'>Chavan graduated from Southwestern Oklahoma State University with a Bachelor’s of Business Administration in Marketing, and joined the agency in 2022.</p>
                         <p className='text-2xl mt-4'>He is a fully licensed agent helping in all aspects of insurance containing property, casualty, health and life. </p>
                         <p className='text-2xl mt-4'>He looks forward to the opportunity to build relationships and service his clients.</p>
-                        <button className="btn btn-outline mt-10"><i class="fa-solid fa-envelope mr-4"></i>Email</button>
+                        <button className="btn btn-outline mt-10"><i className="fa-solid fa-envelope mr-4"></i>Email</button>
                     </AnimatedOnScroll>
                 </section>
 
@@ -70,7 +69,7 @@ function MeetTheStaff() {
                     <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className="col-start-3 col-span-4">
                         <h2 className="card-title text-4xl">Nanette Zoschke</h2>
                         <p className='text-2xl mt-2'>Nanette helps process changes and service agency business.</p>
-                        <button className="btn btn-outline mt-10"><i class="fa-solid fa-envelope mr-4"></i>Email</button>
+                        <button className="btn btn-outline mt-10"><i className="fa-solid fa-envelope mr-4"></i>Email</button>
                     </AnimatedOnScroll>
 
                     <AnimatedOnScroll animationIn="fadeInUp" animationInDuration="1900" className='mx-3.5 gap-10 col-start-8'>
@@ -81,11 +80,9 @@ function MeetTheStaff() {
                             <div className='text-6xl font-semibold text-vertical absolute -right-4 top-64 opacity-20 text-white'>NANETTE</div>
                         </div>
                     </AnimatedOnScroll>
-
                 </section>
 
-                <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5 bg-gray-50">
-
+                <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5 about-bg">
                     <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className='mx-3.5 gap-10 col-start-3'>
                         <div className="card w-96 bg-base-100 shadow-xl z-10">
                             <figure><img src={wesley} alt="Wesley Javorsky" /></figure>
@@ -101,7 +98,7 @@ function MeetTheStaff() {
                         <p className='text-2xl mt-4'>He is a graduate of Southwestern Oklahoma State University and has Bachelor ’s degrees in finance and accounting.  </p>
                         <p className='text-2xl mt-4'>Wesley is a fully licensed agent working with property and casualty as well as health and life.</p>
                         <p className='text-2xl mt-4'>He is enthusiastic to help meet the needs of clients and provide them with extra peace of mind.</p>
-                        <button className="btn btn-outline mt-10"><i class="fa-solid fa-envelope mr-4"></i>Email</button>
+                        <button className="btn btn-outline mt-10"><i className="fa-solid fa-envelope mr-4"></i>Email</button>
                     </AnimatedOnScroll>
                 </section>
 
