@@ -10,7 +10,7 @@ function Navbar() {
     const navigate = useNavigate();
 
     const onMobileClick = () => {
-        // setmobileNavToggled(prevState => !prevStat
+        setmobileNavToggled(!mobileNavToggled)
     }
 
     return (

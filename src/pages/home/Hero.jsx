@@ -20,7 +20,6 @@ function Hero() {
             </div>
             <span className='text-vertical text-xl text-white absolute bottom-24 place-self-center text-xl'>scroll</span>
             <i className="text-vertical-2 text-xl text-white absolute bottom-6 place-self-center  fa-solid fa-down-long"></i>
-            
         </div>
     )
 }
