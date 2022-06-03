@@ -11,8 +11,8 @@ function ProductTypes() {
                     <AnimatedOnScroll animationInDelay="120" animationInDuration="1500" animationIn="fadeInDown" className='col-span-6 col-start-9 text-8xl text-blue-600 font-semibold '>
                         <h2>what we offer<span className='text-black'>.</span></h2>
                     </AnimatedOnScroll>
-                    
-                    
+
+
                 </div>
                 <div className='grid grid-cols-12  mt-10'>
                     <button className='col-start-2 col-span-2 btn btn-lg btn-outline '>Contact Us</button>
@@ -67,7 +67,7 @@ function ProductTypes() {
 
                 <div className="mx-3.5 grid grid-cols-1 md:grid-cols-12 place-content-evenly mb-10">
                     <AnimatedOnScroll animationInDelay="120" animationInDuration="1500" animationIn="fadeInDown" className='md:col-start-5 md:col-span-4 mb-10 place-self-center text-5xl text-blue-600 font-semibold '>
-                        <h2>personal lines<span className='text-black'>.</span></h2>
+                        <h2 >personal lines<span className='text-black'>.</span></h2>
                     </AnimatedOnScroll>
                 </div>
                 <div className='mx-20 gap-10 grid md:grid-cols-4'>
@@ -113,53 +113,43 @@ function ProductTypes() {
 
 
             <div className="py-40 bg-white relative z-10 mb-96">
-                <div className="text-center">
-                    <AnimatedOnScroll animationInDelay="120" animationInDuration="1500" animationIn="fadeInDown" className='md:col-start-5 md:col-span-4 place-self-center text-5xl text-blue-600 font-semibold mb-10 '>
+                <div className="mx-3.5 grid grid-cols-1 md:grid-cols-12 place-content-evenly mb-10">
+                    <AnimatedOnScroll animationInDelay="120" animationInDuration="1500" animationIn="fadeInDown" className='md:col-start-5 md:col-span-4 place-self-center text-5xl text-blue-600 font-semibold mb-10'>
                         <h3>commercial lines<span className='text-black'>.</span></h3>
                     </AnimatedOnScroll>
                 </div>
 
-                <div className='mx-3.5 mt-10 gap-10 grid md:grid-cols-2 xl:grid-cols-3'>
-                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
-                        <div className="card-body text-4xl xl:text-2xl 2xl:text-4xl text-center bg-white">
-                            <i className="fa-solid fa-building text-blue-600"></i>
-                            <p className='mt-5'>Property</p>
-                        </div>
+                <div className='mx-3.5 mt-10 gap-10 grid md:grid-cols-2 xl:grid-cols-5'>
+                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full col-start-2 ">
+                        <i className="fa-solid fa-building text-blue-600 mr-5 text-3xl"></i>
+                        <span className="text-2xl">Property</span>
                     </AnimatedOnScroll>
-                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
-                        <div className="card-body text-4xl xl:text-2xl 2xl:text-4xl text-center bg-white">
-                            <i className="fa-solid fa-car-side text-blue-600"></i>
-                            <p className='mt-5'>Auto</p>
-                        </div>
+                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full">
+                        <i className="fa-solid fa-car-side text-blue-600 mr-5 text-3xl"></i>
+                        <span className='text-2xl'>Auto</span>
                     </AnimatedOnScroll>
-                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
-                        <div className="card-body text-4xl xl:text-2xl 2xl:text-4xl text-center bg-white">
-                            <i className="fa-solid fa-screwdriver-wrench text-blue-600"></i>
-                            <p className='mt-5'>Tradesman Cover Plus</p>
-                        </div>
+                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full">
+                        <i className="fa-solid fa-screwdriver-wrench text-blue-600 mr-5 text-3xl"></i>
+                        <span className='text-2xl'>Tradesman Cover Plus</span>
                     </AnimatedOnScroll>
                 </div>
 
-                <div className='mx-3.5 mt-10 gap-10 grid md:grid-cols-2 xl:grid-cols-3'>
-                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
-                        <div className="card-body text-4xl xl:text-2xl 2xl:text-4xl text-center bg-white">
-                            <i className="fa-solid fa-briefcase text-blue-600"></i>
-                            <p className='mt-5'>Business Cover Plus</p>
-                        </div>
+                <div className='mx-3.5 mt-20 gap-10 grid md:grid-cols-2 xl:grid-cols-5'>
+                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full col-start-2">
+                        <i className="fa-solid fa-briefcase text-blue-600 mr-5 text-3xl"></i>
+                        <span className="text-2xl">Business Cover Plus</span>
                     </AnimatedOnScroll>
-                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
-                        <div className="card-body text-4xl xl:text-2xl 2xl:text-4xl text-center bg-white">
-                            <i className="fa-solid fa-hand-holding-dollar text-blue-600"></i>
-                            <p className='mt-5'>Liability</p>
-                        </div>
+                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full">
+                        <i className="fa-solid fa-hand-holding-dollar text-blue-600 mr-5 text-3xl"></i>
+                        <span className='text-2xl'>Liability</span>
                     </AnimatedOnScroll>
-                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
-                        <div className="card-body text-4xl xl:text-2xl 2xl:text-4xl text-center bg-white">
-                            <i className="fa-solid fa-church text-blue-600"></i>
-                            <p className='mt-5'>Church</p>
-                        </div>
+                    <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full">
+                        <i className="fa-solid fa-church text-blue-600 mr-5 text-3xl"></i>
+                        <span className='text-2xl'>Church</span>
                     </AnimatedOnScroll>
                 </div>
+
+    
             </div>
         </>
     )

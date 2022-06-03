@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-h1,h2,h3 {
-  font-family: 'Noto Serif', serif;
+h1,
+h2,
+h3 {
+  font-family: 'Libre Baskerville', serif;
 }
 
 body {
@@ -11,23 +13,20 @@ body {
 }
 
 .hero-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../src/assets/group.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../src/assets/hero.jpg');
   background-size: cover;
   height: 101vh;
-  background-position: center;
+  background-position: 50% 92%;
 }
 
 #description {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../src/assets/plains.jpg');
-  /* background-size: cover;
-  height: 60vh;
-  background-position: center; */
   height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 .about-bg {
@@ -50,7 +49,7 @@ body {
 }
 
 .nav-active {
-  background-color: rgb(255,255,255, 0.2);
+  background-color: rgb(255, 255, 255, 0.2);
 }
 
 footer {
@@ -74,10 +73,14 @@ footer {
 }
 
 .text-vertical {
-  -webkit-transform: rotate(-90deg); 
--moz-transform: rotate(-90deg);    
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  width: 100px;
+}
 
-    width:100px;
+.text-vertical-2 {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
 }
 
 .hamburger:hover {
