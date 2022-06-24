@@ -17,7 +17,7 @@ function Navbar() {
         <>
             <nav className="hidden md:flex absolute top-10 navbar text-xl pl-5 pr-5 z-10">
                 <div className="flex-1">
-                    <img src={logo} height="50px" width="200px" />
+                    <img src={logo} height="50px" width="200px" alt="Harms Insurance logo" />
                 </div>
                 <div className="">
                     <ul className="menu menu-horizontal p-0 text-white">
@@ -32,7 +32,7 @@ function Navbar() {
 
             <nav className='md:hidden absolute navbar top-10'>
                 <div className="inline-block">
-                    <img src={logo} height="50px" width="200px" />
+                    <img src={logo} height="50px" width="200px" alt="Harms Insurance Logo" />
                 </div>
                 <div onClick={() => onMobileClick()} className={`${mobileNavToggled && 'is-active'}  hamburger inline-block right-10 absolute`} id="hamburger-1">
                     <span className="line"></span>

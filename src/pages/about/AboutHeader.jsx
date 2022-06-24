@@ -1,11 +1,6 @@
-import { useParallax } from 'react-scroll-parallax';
 import Navbar from '../../shared/Navbar';
 
 function AboutHeader() {
-    // const parallax = useParallax({
-    //     speed: -20,
-    // });
-
     return (
         <div id="wrapper" className='about-header-bg'>
             <div  className="relative grid grid-cols-6 gap-4 place-content-evenly  flex relative z-10">
