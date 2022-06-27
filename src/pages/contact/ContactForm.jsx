@@ -9,7 +9,7 @@ function ContactForm() {
                         <input type="text" placeholder="Name" name="name" className="input input-bordered w-full mt-6" />
                         <input type="text" placeholder="Email" name="email" className="input input-bordered w-full mt-12" />
                         <input type="text" placeholder="Subject" name="subject" className="input input-bordered w-full mt-12" />
-                        <textarea className="textarea textarea-bordered mt-12 w-full h-40" placeholder="Type a message"></textarea>
+                        <textarea className="textarea textarea-bordered mt-12 w-full h-40" name="message" placeholder="Type a message"></textarea>
                         <button type="submit" class="btn btn-primary w-full mt-6">Submit</button>
                     </form>
                     
