@@ -19,7 +19,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/carriers" element={<Carriers />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/contact/form-submission" element={<ContactSuccess />} />
+          <Route path="/form-submission" element={<ContactSuccess />} />
         </Routes>
       </Router>
     </ParallaxProvider>
