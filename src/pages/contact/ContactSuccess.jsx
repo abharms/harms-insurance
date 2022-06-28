@@ -1,7 +1,7 @@
 import ContactHeader from "./ContactHeader"
 import Footer from "../../shared/Footer"
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function ContactSuccess() {
     const navigate = useNavigate();
