@@ -1,8 +1,8 @@
-import ClaimsHeader from "./ClaimsHeader"
+import ClaimsHeader from "./CarriersHeader"
 import CompanyLinks from "./CompanyLinks"
 import Footer from "../../shared/Footer"
 
-function Claims() {
+function Carriers() {
   return (
     <>
         <ClaimsHeader />
@@ -12,4 +12,4 @@ function Claims() {
   )
 }
 
-export default Claims
+export default Carriers

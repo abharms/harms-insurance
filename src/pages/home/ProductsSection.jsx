@@ -1,4 +1,3 @@
-import React from 'react'
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 function ProductsSection() {

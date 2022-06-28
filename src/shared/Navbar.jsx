@@ -24,7 +24,7 @@ function Navbar() {
                         <li onClick={() => navigate('/')}><a className={location.pathname === '/' && 'nav-active'}>Home</a></li>
                         <li onClick={() => navigate('/about-us')} ><a className={location.pathname === '/about-us' && 'nav-active'}>About Us</a></li>
                         <li onClick={() => navigate('/products')}><a className={location.pathname === '/products' && 'nav-active'}>Products</a></li>
-                        <li onClick={() => navigate('/claims')}><a className={location.pathname === '/claims' && 'nav-active'}>Claims</a></li>
+                        <li onClick={() => navigate('/carriers')}><a className={location.pathname === '/carriers' && 'nav-active'}>Carriers</a></li>
                         <li onClick={() => navigate('/contact')}><a className={location.pathname === '/contact' && 'nav-active'}>Contact</a></li>
                     </ul>
                 </div>
@@ -47,7 +47,7 @@ function Navbar() {
                         <li onClick={() => navigate('/')}><a>Home</a></li>
                         <li onClick={() => navigate('/about-us')} className="active"><a>About Us</a></li>
                         <li onClick={() => navigate('/products')} className="active"><a>Products</a></li>
-                        <li onClick={() => navigate('/claims')} className="active"><a>Claims</a></li>
+                        <li onClick={() => navigate('/carriers')} className="active"><a>Carriers</a></li>
                         <li onClick={() => navigate('/contact')} className="active"><a>Contact</a></li>
                     </ul>
                 </AnimatedOnScroll>
