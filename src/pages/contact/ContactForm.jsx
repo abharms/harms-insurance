@@ -4,7 +4,7 @@ function ContactForm() {
             <div className="mx-3.5 grid grid-cols-1 md:grid-cols-11 place-content-evenly mb-10">
                 <div className="col-start-3 col-span-3">
                     <p className="text-2xl semi-bold">Get in touch</p>
-                    <form name="contact-form" method="post" action="/contact/form-submission">
+                    <form name="contact-form" method="POST" data-netlify="true" action="/contact/form-submission">
                         <input type="hidden" name="form-name" value="contact-form" />
                         <input type="text" placeholder="Name" name="name" className="input input-bordered w-full mt-6" />
                         <input type="text" placeholder="Email" name="email" className="input input-bordered w-full mt-12" />
