@@ -28,14 +28,14 @@ function MeetTheStaff() {
      
 
                 <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5">
-                    <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className="col-start-3 col-span-4">
+                    <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className="lg:col-start-2 xl:col-start-3 lg:col-span-4">
                         <h2 className="card-title text-4xl">Carlin Day</h2>
                         <p className='text-2xl mt-2'>Carlin is the agency Principal and is a licensed producer working with property and casualty as well as life and health.</p>
                         <p className='text-2xl mt-4'>Contact Carlin today to begin working on your insurance needs.</p>
                         <button className="btn btn-outline mt-10"><i className="fa-solid fa-envelope mr-4"></i>Email</button>
                     </AnimatedOnScroll>
 
-                    <AnimatedOnScroll animationIn="fadeInUp" animationInDuration="1900" className='mx-3.5 gap-10 col-start-8 relative'>
+                    <AnimatedOnScroll animationIn="fadeInUp" animationInDuration="1900" className='mx-3.5 gap-10 lg:col-start-7 xl:col-start-8 mt-32 lg:mt-0 relative'>
                         <div className="card w-96 bg-base-100 shadow-xl z-10">
                             <figure><img src={carlin} alt="Carlin Day" /></figure>
                         </div>
@@ -47,7 +47,7 @@ function MeetTheStaff() {
                 </section>
 
                 <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5 about-bg">
-                    <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className='mx-3.5 gap-10 col-start-3'>
+                    <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className='mx-3.5 gap-10 lg:col-start-2 xl:col-start-3'>
                         <div className="card w-96 bg-base-100 shadow-xl z-10">
                             <figure><img src={chavan} alt="Chavan Sampley" /></figure>
                         </div>
@@ -56,7 +56,7 @@ function MeetTheStaff() {
                         </div>
                     </AnimatedOnScroll>
 
-                    <AnimatedOnScroll animationIn="fadeInRight" animationInDuration="1900" className="col-start-8 col-span-4">
+                    <AnimatedOnScroll animationIn="fadeInRight" animationInDuration="1900" className="lg:col-start-7 xl:col-start-8 lg:col-span-4 mt-32 lg:mt-0">
                         <h2 className="card-title text-4xl">Chavan Sampley</h2>
                         <p className='text-2xl mt-2'>Chavan graduated from Southwestern Oklahoma State University with a Bachelor’s of Business Administration in Marketing, and joined the agency in 2022.</p>
                         <p className='text-2xl mt-4'>He is a fully licensed agent helping in all aspects of insurance containing property, casualty, health and life. </p>
@@ -66,13 +66,13 @@ function MeetTheStaff() {
                 </section>
 
                 <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5">
-                    <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className="col-start-3 col-span-4">
+                    <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className="lg:col-start-2 xl:col-start-3 lg:col-span-4">
                         <h2 className="card-title text-4xl">Nanette Zoschke</h2>
                         <p className='text-2xl mt-2'>Nanette helps process changes and service agency business.</p>
                         <button className="btn btn-outline mt-10"><i className="fa-solid fa-envelope mr-4"></i>Email</button>
                     </AnimatedOnScroll>
 
-                    <AnimatedOnScroll animationIn="fadeInUp" animationInDuration="1900" className='mx-3.5 gap-10 col-start-8'>
+                    <AnimatedOnScroll animationIn="fadeInUp" animationInDuration="1900" className='mx-3.5 gap-10 lg:col-start-7 xl:col-start-8 mt-32 lg:mt-0'>
                         <div className="card w-96 bg-base-100 shadow-xl z-10">
                             <figure><img src={nanette} alt="Nanette Zoschke" /></figure>
                         </div>
@@ -83,7 +83,7 @@ function MeetTheStaff() {
                 </section>
 
                 <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5 about-bg">
-                    <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className='mx-3.5 gap-10 col-start-3'>
+                    <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className='mx-3.5 gap-10 lg:col-start-2 xl:col-start-3'>
                         <div className="card w-96 bg-base-100 shadow-xl z-10">
                             <figure><img src={wesley} alt="Wesley Javorsky" /></figure>
                         </div>
@@ -92,7 +92,7 @@ function MeetTheStaff() {
                         </div>
                     </AnimatedOnScroll>
 
-                    <AnimatedOnScroll animationIn="fadeInRight" animationInDuration="1900" className="col-start-8 col-span-4">
+                    <AnimatedOnScroll animationIn="fadeInRight" animationInDuration="1900" className="lg:col-start-7 xl:col-start-8 lg:col-span-4 mt-32 lg:mt-0">
                         <h2 className="card-title text-4xl">Wesley Javorsky</h2>
                         <p className='text-2xl mt-2'>Wesley joined the agency in 2020 bringing experience from banking and agriculture. </p>
                         <p className='text-2xl mt-4'>He is a graduate of Southwestern Oklahoma State University and has Bachelor ’s degrees in finance and accounting.  </p>
