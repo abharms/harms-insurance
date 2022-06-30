@@ -42,15 +42,17 @@ function Navbar() {
             </nav>
 
             {mobileNavToggled && (
-                <AnimatedOnScroll animationInDuration="300" animationIn="fadeIn" animationOut="fadeOut">
-                    <ul className="menu bg-base-100 w-full text-left absolute top-28 right-0">
-                        <li onClick={() => navigate('/')}><a>Home</a></li>
-                        <li onClick={() => navigate('/about-us')} className="active"><a>About Us</a></li>
-                        <li onClick={() => navigate('/products')} className="active"><a>Products</a></li>
-                        <li onClick={() => navigate('/carriers')} className="active"><a>Carriers</a></li>
-                        <li onClick={() => navigate('/contact')} className="active"><a>Contact</a></li>
-                    </ul>
-                </AnimatedOnScroll>
+                // <AnimatedOnScroll animationInDuration="300" animationIn="fadeIn" animationOut="fadeOut">
+                    
+                // </AnimatedOnScroll>
+
+<ul className="menu bg-base-100 w-full text-left absolute top-28 right-0">
+<li onClick={() => navigate('/')}><a>Home</a></li>
+<li onClick={() => navigate('/about-us')} className="active"><a>About Us</a></li>
+<li onClick={() => navigate('/products')} className="active"><a>Products</a></li>
+<li onClick={() => navigate('/carriers')} className="active"><a>Carriers</a></li>
+<li onClick={() => navigate('/contact')} className="active"><a>Contact</a></li>
+</ul>
 
             )}
 

@@ -18,8 +18,8 @@ function Hero() {
                     <button className="btn btn-lg btn-wide btn-outline text-white mt-5">Contact</button>
                 </div>
             </div>
-            <span className='text-vertical text-xl text-white absolute bottom-24 place-self-center text-xl'>scroll</span>
-            <i className="text-vertical-2 text-xl text-white absolute bottom-6 place-self-center  fa-solid fa-down-long"></i>
+            <span className='hidden md:block text-vertical text-xl text-white absolute bottom-24 place-self-center text-xl'>scroll</span>
+            <i className="invisible md:visible text-vertical-2 text-xl text-white absolute bottom-6 place-self-center fa-solid fa-down-long"></i>
         </div>
     )
 }

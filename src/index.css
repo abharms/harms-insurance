@@ -21,7 +21,7 @@ body {
 
 #description {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../src/assets/plains.jpg');
-  height: 80vh;
+  /* height: 80vh; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,6 @@ body {
 .about-header-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../src/assets/blue-bg.jpg');
   background-size: cover;
-  height: 50vh;
   background-position: center;
   background-attachment: fixed;
 }
@@ -54,11 +53,11 @@ body {
 
 footer {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .hamburger .line {

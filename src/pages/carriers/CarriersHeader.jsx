@@ -2,7 +2,7 @@ import Navbar from "../../shared/Navbar"
 
 function CarriersHeader() {
     return (
-        <div id="wrapper" className='about-header-bg'>
+        <div id="wrapper" className='about-header-bg h-max pb-32'>
             <div className="relative grid grid-cols-6 gap-4 place-content-evenly  flex relative z-10">
                 <Navbar />
                 <div className='col-start-2 col-span-4 text-center mt-48'>

@@ -10,7 +10,7 @@ function PersonalServiceSection() {
 
     return (
         <>
-            <div className="grid grid-cols-1 lg:grid-cols-12 bg-white py-60 relative z-10 mb-96 border border-b px-3.5">
+            <div style={{marginBottom: 34 + 'rem'}} className="grid grid-cols-1 lg:grid-cols-12 bg-white py-60 relative z-10 h-max border border-b px-3.5">
                 <AnimatedOnScroll  animationInDuration="1500" animationIn="fadeInLeft" className='lg:col-start-2 lg:col-end-6'>
                     <h3 className='text-4xl text-blue-600 font-semibold'>our promise to you<span className='text-black'>.</span></h3>
                     <h2 className='text-5xl'>Personal Service</h2>

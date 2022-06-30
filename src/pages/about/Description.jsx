@@ -5,8 +5,8 @@ function Description() {
 
     return (
         <>
-            <div id="description" className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 flex bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5 mb-96">
-                <div className="mt-10 xl:mt-0 lg:col-start-7 xl:col-start-4 col-span-6 ">
+            <div style={{marginBottom: 30 + 'rem'}} id="description" className="relative grid gap-4 grid-cols-5 flex bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5 h-max">
+                <div className="mt-10 xl:mt-0 col-start-2 col-span-3 ">
                     <AnimatedOnScroll animationInDelay="120" animationInDuration="1500" animationIn="fadeInDown">
                         <h2 className="text-center text-6xl text-white font-semibold mb-10">about our agency.</h2>
                     </AnimatedOnScroll>

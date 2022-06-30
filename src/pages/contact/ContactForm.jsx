@@ -1,8 +1,8 @@
 function ContactForm() {
     return (
-        <div className="py-40 bg-white relative z-10 mb-96">
-            <div className="mx-3.5 grid grid-cols-1 md:grid-cols-11 place-content-evenly mb-10">
-                <div className="col-start-3 col-span-3">
+        <div style={{marginBottom: 34 + 'rem'}} className="py-40 bg-white relative z-10 h-max">
+            <div className="mx-3.5 grid md:gap-6 grid-cols-1 md:grid-cols-12 place-content-evenly mb-10">
+                <div className="md:col-span-6">
                     <p className="text-2xl semi-bold">Get in touch</p>
                     <form name="contact-form" method="POST" data-netlify="true" action="/form-submission">
                         <input type="hidden" name="form-name" value="contact-form" />
@@ -14,7 +14,7 @@ function ContactForm() {
                     </form>
                     
                 </div>
-                <div className="col-start-8 text-center col-span-2">
+                <div className="md:col-start-7 text-center col-span-6 mt-20 md:mt-0">
                     <p className="text-2xl semi-bold">Weatherford Location</p>
                     <p className="text-xl text-gray-500 semi-bold">1100 E Main St. Ste 300</p>
                     <p className="text-xl text-gray-500 semi-bold">Weatherford, OK 73096</p>
