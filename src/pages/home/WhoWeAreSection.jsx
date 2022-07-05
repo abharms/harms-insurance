@@ -1,6 +1,14 @@
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
+import { useNavigate } from 'react-router-dom';
 
 function WhoWeAreSection() {
+    const navigate = useNavigate();
+
+    const onAboutUsClick = () => {
+        navigate('/about-us')
+        window.scrollTo(0, 0)
+    }
+
     return (
         <div className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 flex bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5">
             <AnimatedOnScroll animationIn="fadeInUp" animationInDuration="1900" className='lg:col-start-2 xl:col-start-2 text-8xl md:text-9xl text-blue-600 font-semibold'>
@@ -13,7 +21,7 @@ function WhoWeAreSection() {
                     <p>Harms Insurance is an independent agency serving Western Oklahoma since 1993.</p>
                     <p className='mt-4'>We offer personalized coverage written with reputable companies who provide excellent claims service.</p>
                     <p className='mt-4 mb-10'>We look forward to visiting with you!</p>
-                    <button className="btn btn-outline text-xl">About Us</button>
+                    <button onClick={() => onAboutUsClick()} className="btn btn-outline text-xl">About Us</button>
                 </div>
             </AnimatedOnScroll>
         </div>

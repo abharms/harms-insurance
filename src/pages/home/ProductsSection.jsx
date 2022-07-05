@@ -1,6 +1,14 @@
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
+import { useNavigate } from 'react-router-dom';
 
 function ProductsSection() {
+    const navigate = useNavigate();
+
+    const onSeeAllProductsClick = () => {
+        navigate('/products')
+        window.scrollTo(0, 0)
+    }
+
     return (
         <div className='py-40 bg-gray-100 about-bg relative z-10'>
             <div className="mx-3.5 grid grid-cols-1 md:grid-cols-12 place-content-evenly mb-10">
@@ -40,7 +48,7 @@ function ProductsSection() {
                 </AnimatedOnScroll>   
             </div>
             <div className='grid grid-cols-1 mt-24'>
-                <button className='btn btn-lg btn-outline place-self-center '>See All Products</button>
+                <button onClick={() => onSeeAllProductsClick()} className='btn btn-lg btn-outline place-self-center '>See All Products</button>
             </div>
             
         </div>

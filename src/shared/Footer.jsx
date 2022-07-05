@@ -1,12 +1,20 @@
 import logo from '../../src/assets/logo.png';
+import { useNavigate } from 'react-router-dom';
 
 function Footer() {
+    const navigate = useNavigate();
+
+    const onLogoClick = () => {
+        navigate('/')
+        window.scrollTo(0, 0)
+    }
+
     return (
         <footer>
 
             <div className="grid grid-cols-1 md:grid-cols-12 bg-white py-24 bg-gray-50">
                 <div className='md:col-start-2 md:col-span-2 mb-10'>
-                    <img src={logo} alt="logo" className='w-1/2 md:w-max m-auto' />
+                <a onClick={() => onLogoClick()} className="cursor-pointer"><img src={logo} alt="logo" className='w-1/2 md:w-max m-auto' /></a>
                     
                     <div className='text-md text-center mt-5'>
                         <span>© {new Date().getFullYear()} All Rights Reserved. </span><br />

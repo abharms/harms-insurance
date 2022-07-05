@@ -1,6 +1,14 @@
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
+import { useNavigate } from 'react-router-dom';
 
 function ProductTypes() {
+    const navigate = useNavigate();
+
+    const onContactClick = () => {
+        navigate('/contact')
+        window.scrollTo(0, 0)
+    }
+
     return (
         <>
             <div className='py-40 bg-white relative z-10'>
@@ -19,7 +27,7 @@ function ProductTypes() {
 
                 </div>
                 <div className='mx-3.5 grid grid-cols-12 mt-10'>
-                    <button className='col-start-1 col-span-6 sm:col-span-4 md:col-start-2 lg:col-start-2 lg:col-span-3 xl:col-span-2 xl:col-start-2 btn btn-lg btn-outline'>Contact Us</button>
+                    <button onClick={() => onContactClick()} className='col-start-1 col-span-6 sm:col-span-4 md:col-start-2 lg:col-start-2 lg:col-span-3 xl:col-span-2 xl:col-start-2 btn btn-lg btn-outline'>Contact Us</button>
                 </div>
             </div>
             <div className="py-40 about-bg relative z-10">

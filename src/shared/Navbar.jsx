@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import logo from '../../src/assets/logo-white.png';
 
 function Navbar() {
@@ -13,11 +12,15 @@ function Navbar() {
         setmobileNavToggled(!mobileNavToggled)
     }
 
+    const onLogoClick = () => {
+        navigate('/')
+    }
+
     return (
         <>
             <nav className="hidden md:flex absolute top-10 navbar text-xl pl-5 pr-5 z-10">
                 <div className="flex-1">
-                    <img src={logo} height="50px" width="200px" alt="Harms Insurance logo" />
+                    <a onClick={() => onLogoClick()} className="cursor-pointer"><img src={logo} height="50px" width="200px" alt="Harms Insurance logo" /></a>
                 </div>
                 <div className="">
                     <ul className="menu menu-horizontal p-0 text-white">
