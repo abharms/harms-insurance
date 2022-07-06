@@ -8,6 +8,7 @@ import Contact from './pages/contact/Contact';
 import ContactSuccess from './pages/contact/ContactSuccess';
 import Home from './pages/home/Home';
 import Products from './pages/products/Products';
+import PrivacyPolicy from './pages/privacy-policy/PrivacyPolicy';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/carriers" element={<Carriers />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/form-submission" element={<ContactSuccess />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </Router>
     </ParallaxProvider>

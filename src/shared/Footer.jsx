@@ -9,6 +9,11 @@ function Footer() {
         window.scrollTo(0, 0)
     }
 
+    const onPrivacyPolicyClick = () => {
+        navigate('/privacy-policy')
+        window.scrollTo(0, 0)
+    }
+
     return (
         <footer>
 
@@ -18,7 +23,7 @@ function Footer() {
                     
                     <div className='text-md text-center mt-5'>
                         <span>© {new Date().getFullYear()} All Rights Reserved. </span><br />
-                        <span className='text-sm'>Privacy Policy</span>
+                        <a onClick={() => onPrivacyPolicyClick()} className='text-sm cursor-pointer'>Privacy Policy</a>
                     </div>
 
                 </div>
@@ -30,8 +35,8 @@ function Footer() {
                     <p className='text-md lg:text-lg'>Email: <a href="mailto:agency@harmsinsuranceok.com">agency@harmsinsuranceok.com</a></p>
                 </div>
                 <div className='md:col-start-10 md:col-span-2 text-center'>
-                    <i className="fa-brands fa-facebook-f mr-5 text-3xl"></i>
-                    <i className="fa-brands fa-twitter text-3xl"></i>
+                    <a href="https://www.facebook.com/Harms-Insurance-Agency-Inc-102073558249643/reviews/?ref=page_internal" target="_blank"><i className="fa-brands fa-facebook-f mr-5 text-3xl"></i></a>
+                    <a href="https://www.linkedin.com/company/harmsinsuranceok/" target="_blank"><i className="fa-brands fa-linkedin-in text-3xl"></i></a>
                 </div>
 
             </div>
