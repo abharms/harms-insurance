@@ -24,7 +24,10 @@ function ProductsSection() {
             <div className='mx-3.5 gap-10 grid md:grid-cols-2 xl:grid-cols-4'>
                 <AnimatedOnScroll animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
                     <div className="card-body text-4xl xl:text-3xl 2xl:text-4xl text-center">
-                        <i className="fa-solid fa-house text-blue-600"></i>
+                        <div class="relative">
+                            <i className="fa-solid fa-house text-blue-600"></i>
+                            <i className="fas fa-car-side text-blue-600 ml-4 relative top-1"></i>
+                        </div>
                         <p className='mt-5'>Home and Auto</p>
                     </div>
                 </AnimatedOnScroll>
@@ -36,8 +39,8 @@ function ProductsSection() {
                 </AnimatedOnScroll>
                 <AnimatedOnScroll animationInDelay="160" animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
                     <div className="card-body text-4xl xl:text-3xl 2xl:text-4xl text-center">
-                        <i className="fa-solid fa-laptop text-blue-600"></i>
-                        <p className='mt-5'>Small Business</p>
+                        <i className="fa-solid fa-cross text-blue-600"></i>
+                        <p className='mt-5'>Church</p>
                     </div>
                 </AnimatedOnScroll>
                 <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="mb-8 card w-full bg-base-100 shadow-xl place-self-center rounded-2xl">
