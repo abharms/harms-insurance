@@ -1,7 +1,6 @@
 import React from 'react'
 import carlin from '../../assets/carlin.jpg'
 import chavan from '../../assets/chavan.jpg'
-import wesley from '../../assets/wesley.jpg'
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 import { useParallax } from 'react-scroll-parallax';
 
@@ -11,10 +10,6 @@ function MeetTheStaff() {
     });
 
     const parallaxChavan = useParallax({
-        speed: -8,
-    });
-
-    const parallaxWesley = useParallax({
         speed: -8,
     });
 
@@ -55,29 +50,6 @@ function MeetTheStaff() {
                     <p className='text-2xl mt-4'>He is a fully licensed agent helping in all aspects of insurance containing property, casualty, health and life. </p>
                     <p className='text-2xl mt-4'>He looks forward to the opportunity to build relationships and service his clients.</p>
                     <a href="mailto:chavan@harmsinsuranceok.com" className="btn btn-outline mt-10"><i className="fa-solid fa-envelope mr-4"></i>Email</a>
-                </AnimatedOnScroll>
-            </section>
-
-
-            <section className="relative grid gap-4 grid-cols-1 lg:grid-cols-12 bg-white py-40 z-10 pl-5 xl:pl-0 px-3.5">
-                
-
-                <AnimatedOnScroll animationIn="fadeInLeft" animationInDuration="1900" className="lg:col-start-2 xl:col-start-3 lg:col-span-4">
-                    <h2 className="card-title text-4xl">Wesley Javorsky</h2>
-                    <p className='text-2xl mt-2'>Wesley joined the agency in 2020 bringing experience from banking and agriculture. </p>
-                    <p className='text-2xl mt-4'>He is a graduate of Southwestern Oklahoma State University and has Bachelor ’s degrees in finance and accounting.  </p>
-                    <p className='text-2xl mt-4'>Wesley is a fully licensed agent working with property and casualty as well as health and life.</p>
-                    <p className='text-2xl mt-4'>He is enthusiastic to help meet the needs of clients and provide them with extra peace of mind.</p>
-                    <a href="mailto:wesley@harmsinsuranceok.com" className="btn btn-outline mt-10"><i className="fa-solid fa-envelope mr-4"></i>Email</a>
-                </AnimatedOnScroll>
-
-                <AnimatedOnScroll animationIn="fadeInUp" animationInDuration="1900" className='mx-3.5 gap-10 lg:col-start-7 xl:col-start-8 mt-32 lg:mt-0 relative'>
-                    <div className="card lg:w-96 bg-base-100 shadow-xl z-10">
-                        <figure><img src={wesley} alt="Wesley Javorsky" /></figure>
-                    </div>
-                    <div ref={parallaxWesley.ref} className='absolute rounded-2xl bg-blue-600 shadow-xl lg:h-96 lg:w-96 lg:-top-0 lg:left-16'>
-                        <div className='text-6xl font-semibold text-vertical absolute -right-4 top-64 opacity-20 text-white'>WESLEY</div>
-                    </div>
                 </AnimatedOnScroll>
             </section>
         </>
