@@ -9,7 +9,6 @@ import aig from '../../assets/aig-logo.png'
 import allstate from '../../assets/allstate-logo.jpg'
 import guideone from '../../assets/guideone-logo.png'
 import legalGeneral from '../../assets/legal-general-logo.png'
-import max from '../../assets/max-logo.png'
 import ohio from '../../assets/ohio-logo.png'
 import safeco from '../../assets/safeco-logo.png'
 
