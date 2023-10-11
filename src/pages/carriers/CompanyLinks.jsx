@@ -87,9 +87,9 @@ function CompanyLinks() {
                         <figure><img src={legalGeneral} alt="Legal General Logo" /></figure>
                     </a>
                 </AnimatedOnScroll>
-                <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full">
-                    <a href="https://www.maxinsurance.com/" target="_blank" className="card bg-white shadow-xl z-10 h-40 place-content-center">
-                        <figure><img src={max} alt="Max Insurance Logo" /></figure>
+                <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full lg:col-start-2">
+                    <a href="https://www.safeco.com/" target="_blank" className="card bg-white shadow-xl z-10 h-40 place-content-center">
+                        <figure><img src={safeco} alt="SafeCo Logo" /></figure>
                     </a>
                 </AnimatedOnScroll>
                 <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full">
@@ -98,17 +98,6 @@ function CompanyLinks() {
                     </a>
                 </AnimatedOnScroll>
             </div>
-
-
-
-            <div className='mx-3.5 mt-20 gap-10 grid grid-cols-1 lg:grid-cols-3'>
-                <AnimatedOnScroll animationInDelay="240" animationIn="fadeInUp" className="w-full lg:col-start-2">
-                    <a href="https://www.safeco.com/" target="_blank" className="card bg-white shadow-xl z-10 h-40 place-content-center">
-                        <figure><img src={safeco} alt="SafeCo Logo" /></figure>
-                    </a>
-                </AnimatedOnScroll>
-            </div>
-
         </div>
     )
 }
