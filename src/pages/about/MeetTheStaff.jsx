@@ -135,6 +135,11 @@ function MeetTheStaff() {
             to help you with your insurance needs. You can call Kerrie at
             580-786-0589
           </p>
+          <a
+            href="mailto:kerrie@harmsinsuranceok.com"
+            className="btn btn-outline mt-10">
+            <i className="fa-solid fa-envelope mr-4"></i>Email
+          </a>
         </AnimatedOnScroll>
 
         <AnimatedOnScroll
@@ -179,13 +184,18 @@ function MeetTheStaff() {
           animationIn="fadeInRight"
           animationInDuration="1900"
           className="lg:col-start-7 xl:col-start-8 lg:col-span-4 mt-32 lg:mt-0">
-          <h2 className="card-title text-4xl">Chavan Sampley</h2>
+          <h2 className="card-title text-4xl">Tyler Stark</h2>
           <p className="text-xl mt-2">
             Tyler joined the agency in 2023. He is a graduate from Southwestern
             Oklahoma State University. Tyler is a licensed agent who is ready to
             help you with your insurance needs. Give Tyler a call today at
             580-530-8206.
           </p>
+          <a
+            href="mailto:Tyler@harmsinsuranceok.com"
+            className="btn btn-outline mt-10">
+            <i className="fa-solid fa-envelope mr-4"></i>Email
+          </a>
         </AnimatedOnScroll>
       </section>
     </>
