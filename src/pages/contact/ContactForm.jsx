@@ -25,7 +25,7 @@ function ContactForm() {
         <div className="md:col-span-6 md:col-start-2">
           <p className="text-2xl semi-bold">Get in touch</p>
           <form
-            name="contact-form"
+            name="contact-form-2"
             method="POST"
             data-netlify="true"
             action="/form-submission">
