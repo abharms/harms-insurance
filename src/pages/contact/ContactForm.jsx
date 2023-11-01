@@ -29,7 +29,7 @@ function ContactForm() {
             method="POST"
             data-netlify="true"
             action="/form-submission">
-            <input type="hidden" name="form-name" value="contact-form" />
+            <input type="hidden" name="form-name-2" value="contact-form-2" />
             <div className="relative">
               <input
                 type="text"
