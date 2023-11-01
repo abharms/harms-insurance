@@ -25,15 +25,11 @@ function ContactForm() {
         <div className="md:col-span-6 md:col-start-2">
           <p className="text-2xl semi-bold">Get in touch</p>
           <form
-            name="contact-form-new"
+            name="contact-form"
             method="POST"
             data-netlify="true"
             action="/form-submission">
-            <input
-              type="hidden"
-              name="form-name-new"
-              value="contact-form-new"
-            />
+            <input type="hidden" name="form-name" value="contact-form" />
             <div className="relative">
               <input
                 type="text"
@@ -60,7 +56,7 @@ function ContactForm() {
 
             <div className="relative">
               <input
-                type="tel"
+                type="number"
                 placeholder="Phone"
                 name="phone"
                 onChange={handlePhoneChange}
