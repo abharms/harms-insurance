@@ -5,7 +5,6 @@ function ContactForm() {
   const [phone, setPhone] = useState("");
   const [emailValid, setEmailValid] = useState(false);
   const emailReg = /^\S+@\S+\.\S+$/;
-
   function handleNameChange({ target }) {
     setName(target.value);
   }
@@ -65,6 +64,9 @@ function ContactForm() {
                 className="input input-bordered w-full mt-12"
               />
               <i className="fas fa-asterisk absolute -right-6 top-12 text-sm text-rose-600"></i>
+              <span className="text-xs text-gray-400 italic">
+                Please confirm your phone number is correct before submitting.
+              </span>
             </div>
 
             <input
