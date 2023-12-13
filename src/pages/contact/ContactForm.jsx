@@ -26,15 +26,11 @@ function ContactForm() {
         <div className="md:col-span-6 md:col-start-2">
           <p className="text-2xl semi-bold">Get in touch</p>
           <form
-            name="harms-insurance-contact-form"
+            name="new-contact-form"
             method="POST"
             data-netlify="true"
             action="/form-submission">
-            <input
-              type="hidden"
-              name="form-name"
-              value="harms-insurance-contact-form"
-            />
+            <input type="hidden" name="form-name" value="new-contact-form" />
             <div className="relative">
               <input
                 type="text"
