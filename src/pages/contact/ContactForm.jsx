@@ -2,15 +2,16 @@ import { useState } from "react";
 
 function ContactForm() {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const [emailValid, setEmailValid] = useState(false);
+  const emailReg = /^\S+@\S+\.\S+$/;
 
   function handleNameChange({ target }) {
     setName(target.value);
   }
 
   function handleEmailChange({ target }) {
-    setEmail(target.value);
+    setEmailValid(emailReg.test(target.value));
   }
 
   function handlePhoneChange({ target }) {
@@ -44,6 +45,7 @@ function ContactForm() {
 
             <div className="relative">
               <input
+                id="emailInput"
                 type="text"
                 placeholder="Email"
                 name="email"
@@ -77,7 +79,7 @@ function ContactForm() {
               name="message"
               placeholder="Type a message"></textarea>
             <button
-              disabled={!(!!name && !!email && !!phone)}
+              disabled={!name || !emailValid || !phone}
               type="submit"
               className="btn btn-primary w-full mt-6">
               Submit
