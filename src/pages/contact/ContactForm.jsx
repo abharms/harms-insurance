@@ -45,7 +45,6 @@ function ContactForm() {
 
             <div className="relative">
               <input
-                id="emailInput"
                 type="text"
                 placeholder="Email"
                 name="email"
@@ -58,7 +57,7 @@ function ContactForm() {
 
             <div className="relative">
               <input
-                type="number"
+                type="text"
                 placeholder="Phone"
                 name="phone"
                 onChange={handlePhoneChange}
