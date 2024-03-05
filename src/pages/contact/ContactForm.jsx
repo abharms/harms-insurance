@@ -64,9 +64,13 @@ function ContactForm() {
                 className="input input-bordered w-full mt-12"
               />
               <i className="fas fa-asterisk absolute -right-6 top-12 text-sm text-rose-600"></i>
-              <span className="text-xs text-gray-400 italic">
+              <div className="text-xs text-gray-400 italic mb-2">
                 Please confirm your phone number is correct before submitting.
-              </span>
+              </div>
+              <div className="text-xs text-gray-400 italic">
+                By filling out this form, I authorize Harms Insurance Agency to
+                communicate with me via text messaging.
+              </div>
             </div>
 
             <input
